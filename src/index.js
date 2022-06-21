@@ -34,7 +34,7 @@ app.get("/contact",(req,res)=>{
 });
 app.get("/contact/*",(req,res)=>{
     res.render("404.hbs",{
-        errorcomment:"OOPs Contact Page couldn't found",
+        errorcomment:"OOPs Contact Page couldn't found Please click here to go back",
     });
 });
 app.get("/signup/*",(req,res)=>{
